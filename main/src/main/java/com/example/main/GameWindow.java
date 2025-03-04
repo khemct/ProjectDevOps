@@ -1,8 +1,14 @@
 package com.example.main;
 
-import javafx.fxml.FXML;
-import javafx.scene.control.Label;
+import javax.swing.JFrame;
 
 public class GameWindow {
+    private JFrame jFrame;
+
+    public  GameWindow() {
+        jFrame = new JFrame();
+        jFrame.setSize(400, 400);
+        jFrame.setVisible(true);
+    }
 
 }
