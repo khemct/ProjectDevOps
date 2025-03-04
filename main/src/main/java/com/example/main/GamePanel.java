@@ -1,10 +1,13 @@
 package com.example.main;
 
+import inputs.KeyBoardInputs;
+
 import javax.swing.*;
 import java.awt.*;
 
 public class GamePanel extends JPanel {
     public GamePanel(){
+        addKeyListener(new KeyBoardInputs());
 
     }
 
